@@ -1,13 +1,14 @@
-html{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-}
-
 *,
 *::after,
 *::before{
  box-sizing: inherit;  
+}
+
+html{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 }
 .promo{
    width: 100vw;
-   height: 800px;
+   min-height: 800px;
    background: url('../images/first-bg.jpeg') center center/cover  no-repeat ;
    padding: 38px 0px 59px 0px;
 
@@ -33,7 +34,6 @@ a{
 }
 .logo .logo__text{
 color:#FFFFFF;
-font-family: Roboto;
 font-size: 15px;
 font-weight: 500;
 line-height: 24px;
@@ -47,7 +47,6 @@ h1{
 }
 .title{
 color: rgb(249, 191, 59);
-font-family: Roboto;
 font-size: 41px;
 font-weight: 900;
 letter-spacing: 0px;
@@ -56,7 +55,6 @@ text-transform: uppercase;
 }
 .simple .title__big{
 color:#FFFFFF;
-font-family: Roboto;
 font-size: 80px;
 font-weight: 900;
 letter-spacing: 0px;
@@ -67,7 +65,6 @@ margin: 21px 0px;
 .promo__text{
 padding: 0 45px;
 color:#FFFFFF;
-font-family: Roboto;
 font-size: 21px;
 font-weight: 300;
 line-height: 28px;
@@ -78,7 +75,6 @@ margin-top: 29px;
 .promo__text span{
    color:#F9BF3B ;
    font-weight: 700;
-   font-family: Roboto;
 }
 .promo__btn, .gift__btn{
 display: block;
@@ -93,7 +89,6 @@ background: linear-gradient(
 to top , #2798b9 0%,#3ab6da 100%);
 cursor: pointer;
 color: rgb(255, 255, 255);
-font-family: RobotoCondensed;
 font-size: 21px;
 font-weight: 400;
 line-height: 24px;
@@ -104,7 +99,6 @@ outline: none;
 }
 .more .more__text{
 color: rgb(255, 255, 255);
-font-family: Roboto;
 font-size: 15px;
 font-weight: 400;
 line-height: 24px;
@@ -124,7 +118,6 @@ margin-bottom: 3px;
 }
 .waiting .waiting__header, .finish__header{
 color: rgb(37, 37, 37);
-font-family: Roboto;
 font-size: 30px;
 font-weight: 400;
 letter-spacing: 0px;
@@ -143,7 +136,6 @@ background: #F9BF3B;
 }
 .waiting .waiting__subheader{
 color: rgb(74, 74, 74);
-font-family: Roboto;
 font-size: 23px;
 font-weight: 400;
 letter-spacing: 0px;
@@ -165,7 +157,6 @@ text-align: center;
 .waiting__descr{
 margin-top: 27px;
 color: rgb(74, 74, 74);
-font-family: Roboto;
 font-size: 15px;
 font-weight: 300;
 line-height: 21px;
@@ -179,7 +170,6 @@ text-align: center;
 .optimization .optimization__header{
 margin-left: 391px;
 color: rgb(41, 156, 189);
-font-family: Roboto;
 font-size: 26px;
 font-weight: 900;
 letter-spacing: 0px;
@@ -188,7 +178,6 @@ text-transform: uppercase;
 }
 .optimization__text{
 margin-left: 391px;
-font-family: Roboto;
 font-size: 17px;
 line-height: 27px;
 font-weight: 300;
@@ -233,7 +222,6 @@ margin-top: 25px;
 }
 .finish__descr{
 color: rgb(239, 239, 239);
-font-family: Roboto;
 font-size: 17px;
 font-weight: 300;
 line-height: 20px;
@@ -255,7 +243,6 @@ min-height: 631px;
 }
 .gift__text{
    color: rgb(37, 37, 37);
-   font-family: Roboto;
    font-size: 30px;
    font-weight: 400;
    line-height: 43px;
@@ -276,7 +263,6 @@ min-height: 631px;
 }
 .beginning__poster{
    color: rgb(37, 37, 37);
-   font-family: Roboto;
    font-size: 30px;
    font-weight: 400;
    letter-spacing: 0px;
@@ -286,7 +272,6 @@ min-height: 631px;
 }
 .beginning__time{
    color: rgb(41, 156, 189);
-   font-family: Roboto;
    font-size: 36px;
    font-weight: 900;
    letter-spacing: 0px;
@@ -296,7 +281,6 @@ min-height: 631px;
 }
 .beginning__warning{
    color: rgb(74, 74, 74);
-   font-family: Roboto;
    font-size: 23px;
    font-weight: 400;
    letter-spacing: 0px;
@@ -308,7 +292,6 @@ min-height: 631px;
    background-color: #1A1A1A;
    min-height: 169px;
    color: rgb(136, 136, 136);
-   font-family: Roboto;
    font-size: 15px;
    font-weight: 300;
    line-height: 21px;
@@ -319,11 +302,12 @@ min-height: 631px;
    padding-top: 59px;
    display: flex;
    justify-content: center;
-   align-items: center;   
+   align-items: center;
+   text-decoration: underline;   
 }
 .vertical-line{
-   width: 1px;
-   height: 14px;
-   border: solid;
-   margin: 0 5px;
+    display: inline;
+    height: 15px;
+    border-left: 1px solid ;
+    margin: 0 5px;
 }
