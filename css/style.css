@@ -97,6 +97,10 @@ text-align: center;
 text-transform: uppercase;
 outline: none;
 }
+.promo__btn:hover, .gift__btn:hover{
+   background: linear-gradient(
+to top , #26748b 0%,#398aa0 100%);
+}
 .more .more__text{
 color: rgb(255, 255, 255);
 font-size: 15px;
